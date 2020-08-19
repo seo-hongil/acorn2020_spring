@@ -107,4 +107,21 @@ public class CafeController {
 		map.put("content", dto.getContent());
 		return map;
 	}
+<<<<<<< HEAD
 }
+=======
+	@RequestMapping("/cafe/ajax_comment_list")
+	public ModelAndView ajaxCommentList(HttpServletRequest request,
+			ModelAndView mView) {
+		cafeService.moreCommentList(request);
+		mView.setViewName("cafe/ajax_comment_list");
+		return mView;
+	}
+}
+
+
+
+
+
+
+>>>>>>> refs/remotes/upstream/master
