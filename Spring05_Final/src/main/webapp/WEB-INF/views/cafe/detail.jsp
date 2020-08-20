@@ -336,6 +336,10 @@
 			location.href="delete.do?num=${dto.num}";
 		}
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/upstream/master
 </script>
 </body>
 </html>
