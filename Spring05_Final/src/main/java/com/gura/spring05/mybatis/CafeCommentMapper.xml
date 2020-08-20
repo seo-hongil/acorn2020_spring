@@ -46,4 +46,3 @@
 		WHERE ref_group=#{ref_group}
 	</select>
 </mapper>
-
