@@ -16,7 +16,7 @@ public class FriendsController {
 	public String friends(HttpServletRequest request) {
 		//비즈니스 로직 수행 결과 모델 
 		List<String> list=new ArrayList<String>();
-		list.add("김구라");
+		list.add("김구라"); 
 		list.add("해골");
 		list.add("원숭이");
 		//view 페이지에 전달할 모델을 request 영역에 담고

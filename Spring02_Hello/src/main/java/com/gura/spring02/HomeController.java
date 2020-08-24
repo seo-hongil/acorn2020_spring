@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 	
-	//해당 메소드가 어떤 요청을 처리할지 결정하는 어노테이션
+	//해당 메소드가 어떤 요청을 처리할지 결정하는 어노테이 션
 	@RequestMapping("/home") //.nhn 생략가능
 	public String home() {
 		
