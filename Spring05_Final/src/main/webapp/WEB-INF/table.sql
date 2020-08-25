@@ -82,6 +82,7 @@ CREATE TABLE client_order(
 CREATE SEQUENCE client_order_seq;
 
 
+
 -- sample 데이터
 INSERT INTO shop (num,name,price,remainCount)
 VALUES(1, '사과', 1000, 5);

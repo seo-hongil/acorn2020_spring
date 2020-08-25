@@ -13,8 +13,10 @@
 			alias="cafeDto"/>		
 		<typeAlias type="com.gura.spring05.cafe.dto.CafeCommentDto"
 			alias="cafeCommentDto"/>
+		<typeAlias type="com.gura.spring05.shop.dto.ShopDto"
+			alias="shopDto"/>
 		<typeAlias type="com.gura.spring05.shop.dto.OrderDto"
-			alias="orderDto"/>
+			alias="orderDto"/>		
 	</typeAliases>
 	
 	<!-- Mapper 등록 -->
