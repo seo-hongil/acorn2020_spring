@@ -115,9 +115,6 @@ public class CafeController {
 		mView.setViewName("cafe/ajax_comment_list");
 		return mView;
 	}
-<<<<<<< HEAD
-}
-=======
 	
 	@RequestMapping("/cafe/ajax_list")
 	@ResponseBody
@@ -126,10 +123,3 @@ public class CafeController {
 		return cafeService.getList2(request);
 	}
 }
-
-
-
-
-
-
->>>>>>> refs/remotes/upstream/master
