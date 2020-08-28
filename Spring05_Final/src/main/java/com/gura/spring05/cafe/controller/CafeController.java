@@ -1,6 +1,7 @@
 package com.gura.spring05.cafe.controller;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
@@ -114,4 +115,21 @@ public class CafeController {
 		mView.setViewName("cafe/ajax_comment_list");
 		return mView;
 	}
+<<<<<<< HEAD
 }
+=======
+	
+	@RequestMapping("/cafe/ajax_list")
+	@ResponseBody
+	public List<CafeDto> ajaxList(HttpServletRequest request){
+		
+		return cafeService.getList2(request);
+	}
+}
+
+
+
+
+
+
+>>>>>>> refs/remotes/upstream/master
