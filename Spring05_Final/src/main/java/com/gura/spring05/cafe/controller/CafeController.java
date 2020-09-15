@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.gura.spring05.cafe.dao.CafeDao;
 import com.gura.spring05.cafe.dto.CafeCommentDto;
 import com.gura.spring05.cafe.dto.CafeDto;
 import com.gura.spring05.cafe.service.CafeService;
@@ -122,4 +123,24 @@ public class CafeController {
 		
 		return cafeService.getList2(request);
 	}
+<<<<<<< HEAD
 }
+=======
+	// angular js 테스트용 
+	@Autowired
+	private CafeDao cafeDao;
+	
+	@RequestMapping("/cafe/ajax_detail")
+	@ResponseBody
+	public CafeDto ajaxDetail(@RequestParam int num) {
+		
+		return cafeDao.getData(num);
+	}
+}
+
+
+
+
+
+
+>>>>>>> refs/remotes/upstream/master
